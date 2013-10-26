@@ -1,6 +1,7 @@
 ## Backup
 
 Major Goals:
+
 	- Deduplication
 		- As few blocks should be stored as possible.
 	- Redundancy
