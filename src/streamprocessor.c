@@ -33,5 +33,5 @@ void update_streamprocessor(struct sproc_cfg *cfg, char* datablock, unsigned int
 	 *	- There are no bytes in tmp_buf, and we simply construct our sliding windows and begin processing
 	 */
 	//TODO: Utilize character queue in sproc_cfg
-
 		
+}
