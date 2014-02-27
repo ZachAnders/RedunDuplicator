@@ -15,3 +15,6 @@ Major Goals:
 Originally the weak hash for deduplication was going to be based off of a rolling adler32. The current
 implementation requires too much shuffling (maxing around 60 MB/s of hash throughput), so most of it will likely be
 rewritten in the near future with a fletcher hash and no character queues.
+
+Notes:
+	- Fast Galois field arithmetic library is from http://web.eecs.utk.edu/~plank/plank/papers/CS-07-593/README.html and subject to it's own Licence (in reedsolo/Licence.txt)
